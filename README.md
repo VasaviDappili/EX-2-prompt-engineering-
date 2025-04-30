@@ -1,108 +1,103 @@
-# EX-2-prompt-engineering-Comparative Analysis of different types of Prompting patterns and explain with Various Test scenerios
-
-Experiment:
-Test and compare how different pattern models respond to various prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios. 
-     Analyze the quality, accuracy, and depth of the generated responses.
-
-# OUTPUT
-
-### Purpose:
-To test and compare how two large language models — ChatGPT and Gemini — respond to different prompting patterns, specifically examining their behavior when given broad (unstructured) versus refined (clear) prompts, across different prompt styles.
-### Prompt Type 1: Intuition Behind Prompts
-### Prompt A (Broad):
-"Tell me something interesting."
-### ChatGPT:
-Two hearts pump blood to the gills, one to the body—and they stop the body-pumping heart when they swim.
-### Gemini:
-Bees make honey, and its low water content and acidity prevent bacteria from thriving, allowing it to last indefinitely if stored properly.
-### Prompt B (Refined):
-"Explain the intuition behind how prompts work in AI language models with two simple examples."
-### ChatGPT:
-Prompts guide the AI on what to say by giving it context.
-### Example 1:
-Prompt: “Translate to French: Good morning”
-→ AI sees “Translate” and gives “Bonjour” — it's following the instruction.
-### Example 2:
-Prompt: “Once upon a time,”
-→ AI continues with a story — it sees this as a storytelling cue.
-Prompts shape the AI’s response style and content.
-### Gemini:
-AI language models predict the next words. Prompts provide context to guide this prediction.
-### Example 1: 
-Prompt: "The sky is..." Intuition: The model predicts words commonly following "The sky is," like "blue" or "cloudy."
-### Example 2: 
-Prompt: "Translate 'hello' to French." Intuition: The model recognizes the translation task and predicts "bonjour."
-
-### Prompt Type 2: Straightforward Prompts
-### Prompt A (Broad):
-"Rain."
-### ChatGPT:
-Rain forms when moist air cools, condenses into droplets, and falls from clouds due to gravity
-### Gemini:
-Water falling from clouds.
-### Prompt B (Refined):
-"Explain what causes rainfall in 1-2 sentences."
-### ChatGPT:
-Rainfall happens when warm, moist air rises, cools, and condenses into water droplets in clouds. When these droplets grow heavy enough, they fall as rain. 
-### Gemini:
- Warm, moist air rises, cools, and condenses into water droplets or ice crystals, forming clouds. When these droplets or crystals become too heavy, they fall to the Earth as rain. 
-
-### Prompt Type 3: Tabular Format Prompting
-### Prompt A (Broad):
-"Tell me different types of energy."
-### ChatGPT:
-Kinetic Energy,Potential Energy,Thermal (Heat) Energy,Chemical Energy,Electrical Energy,Nuclear Energy,Light (Radiant) Energy,Sound Energy
-### Gemini:
-There are many types of energy, broadly categorized as kinetic (energy of motion) and potential (stored energy).   
-### Examples include:
-Kinetic: Motion, thermal (heat), radiant (light), electrical, sound.   
-Potential: Chemical, gravitational, nuclear, elastic, mechanical.   
-Energy sources can also be classified as renewable (naturally replenished, like solar, wind, and hydro) and non-renewable (finite resources, like fossil fuels and nuclear).   
-### Prompt B (Refined):
-"List 3 types of energy in a table with their definition and example."
-### ChatGPT:
-```Type of Energy	Definition	Example
-Kinetic Energy	Energy of motion.	A moving car.
-Potential Energy	Stored energy due to position or condition.	A stretched rubber band.
-Thermal Energy	Energy from the movement of particles in matter.	Boiling water.
-```
-### Gemini:
-```Energy Type	Definition	Example
-Kinetic	Energy of motion	A moving car
-Potential	Stored energy due to position	A ball held at a height
-Thermal	Energy due to temperature	Heat from a stove burner
-```
-### Prompt Type 4: Comparative Analysis Prompt
-### Prompt A (Broad):
-"Compare things."
-### ChatGPT:
-Here are some comparisons:
-### 1.	Apples vs. Oranges
-o	Apples: Crisp, sweet or tart, commonly eaten raw.
-o	Oranges: Juicy, tangy, mostly consumed as juice or fresh.
-### 2.	Cars vs. Bicycles
-o	Cars: Faster, require fuel, can travel long distances.
-o	Bicycles: Slower, eco-friendly, require physical effort.
-
-### Gemini:
- Apples are sweet and crunchy, while oranges are citrusy and juicy. Both are fruits but offer different tastes and textures.
-### Prompt B (Refined):
-" Compare the effectiveness of rule-based systems and machine learning models in solving complex problems”
-
-### ChatGPT:
-Rule-based systems use predefined rules, making them effective for simple tasks but struggle with complexity and adaptability. They require manual updates for maintenance.
-Machine learning models, on the other hand, learn from data, handle complex problems better, and improve over time with more data. They are more adaptable and typically perform better in uncertain scenarios.
-
-### Gemini:
-Rule-based systems excel in well-defined problems with clear, logical rules, offering transparency and consistency. However, they struggle with complex, dynamic situations requiring adaptation and learning. Machine learning models, on the other hand, learn from data to solve intricate problems, improve with more data, and handle ambiguity, but can be less transparent and require significant data for training.
-
-
-# RESULT:
-### Based on the analysis of quality, accuracy, and depth, both AI models perform well, with slight differences:
-### 1.	Quality:
-Chat GPT provides more detailed explanations, while Gemini is generally more concise and focused.
-### 2.	Accuracy:
-Complex scenarios tend to be handled more accurately by ChatGPT, whereas simpler, straightforward tasks are more precisely handled by Gemini
-### 3.	Depth:
-Gemini offers deeper responses in unstructured or broad prompts, while ChatGPT is more efficient in structured, refined prompts.
-Overall, the best model depends on user preference for detail, clarity, and the complexity of the prompt. Gemini is the best choice for users seeking more depth and detailed explanations
+ 
+Exp 5 : Comparative Analysis of different types of Prompting patterns and explain with 
+Various Test Scenarios 
+AIM: 
+Test and compare how different pattern models respond to various prompts (broad or 
+unstructured) versus basic prompts (clearer and more refined) across multiple scenarios.  
+Analyze the quality, accuracy, and depth of the generated responses. 
+AI TOOLS REQUIRED: 
+o For assistance- ChatGpt, Claude, DeepSeek 
+o For Video Generation- Runway 
+o For Image Generation- Midjourney 
+Procedure:  
+1. Objective: 
+o This analysis seeks to evaluate the responses of various AI models to different levels of 
+prompt clarity. By comparing naïve (broad, unstructured) prompts to basic (clearer, more 
+refined) prompts, we aim to understand how prompt precision influences the quality, 
+accuracy, and relevance of AI-generated responses. 
+ 
+Recognizing how prompt specificity impacts AI responses is essential for users seeking 
+optimal model performance across various tasks, including factual responses, creative output, 
+and technical explanations 
+o Basic Prompts: Basic prompts are clearer and provide essential context, giving the model 
+specific direction on desired content. For example, “Provide a brief overview of climate 
+change, covering its causes, major impacts, and potential solutions” offers a structured focus 
+that the model can directly follow. 
+o Evaluation Metrics: Key metrics for assessment include quality (how well the response 
+addresses the prompt), accuracy (factual correctness), depth (level of detail), relevance 
+(response alignmentwith prompt), conciseness, and adaptability (the model's ability to 
+infer missing context or handle vague requests). 
+Methodology 
+1. Models Selection: 
+o Selected models include GPT-3.5, GPT-4, Claude, and a leading open-source model. These 
+choices reflect a range of capabilities: GPT-4 for depth and contextual handling, Claude for 
+precision and conversational tone, and an open-source model to assess adaptability with less 
+Saveetha Engineering College 
+refined prompt engineering. 
+2. Prompt Scenarios: 
+o Five core scenarios were chosen: summarization (e.g., summarizing an article), complex 
+query answering (e.g., explaining a scientific concept), creative writing (e.g., storytelling), 
+technical explanation (e.g., explaining a code snippet), and opinion-based inquiry (e.g., pros 
+and cons of remote work). 
+o Each scenario was tested with a naïve prompt (e.g., “Explain photosynthesis”) and a basic 
+prompt (e.g., “Describe the photosynthesis process, highlighting the roles of chlorophyll, 
+sunlight, water, and carbon dioxide”). 
+3. Evaluation Metrics: 
+o Responses were assessed on a 5-point scale across each metric: quality, accuracy, depth, 
+relevance, conciseness, and adaptability. Qualitative notes complemented scores to capture 
+nuances in model behaviour. 
+Analysis of Basic Prompts 
+1. Scenario Results: 
+o With basic prompts, models delivered more targeted, structured responses. For example, 
+when asked, “Explain photosynthesis by focusing on chlorophyll and energy transformation,” 
+GPT-4 produced an in-depth answer that maintained focus, while Claude generated a 
+succinct, clear explanation. Even open-source models improved, delivering responses more 
+aligned with the prompt’s requirements. 
+2. Observations: 
+o Improvements: Basic prompts markedly enhanced depth, accuracy, and alignment with the 
+intended focus. Responses were consistently higher quality and demonstrated better adherence 
+to the prompt structure. 
+o Model-Specific Benefits: GPT-4 showcased the most substantial improvement in depth and 
+relevance, effectively addressing all prompt components. Claude exhibited clear, concise 
+answers suitable for simpler explanations. Open-source models showed marginal 
+improvement, though remained less accurate than proprietary models. 
+o Detailed Comparison: With refined prompts, GPT-4 generated responses of greater depth 
+and accuracy, while GPT-3.5 offered quicker, more concise responses that suited 
+straightforward tasks. Claude’s responses were consistently accurate but leaned towards 
+conversational summaries, suitable for non-specialist audiences. 
+ 
+Key Findings and Insights 
+1. Prompt Sensitivity: 
+o GPT-4 demonstrated high sensitivity to prompt clarity, delivering accurate and in-depth 
+responses when given basic prompts. Claude also benefited, offering clearer explanations 
+Saveetha Engineering College 
+with basic prompts but struggling with inferential depth on naïve prompts. Open-source 
+models were less responsive to prompt refinement, suggesting limitations in inference 
+capabilities. 
+2. Efficiency and Practicality: 
+o Refining prompts proved especially practical for tasks requiring depth and specificity, as it 
+reduced the time needed to clarify responses. GPT-3.5 and Claude consistently provided 
+efficient, relevant answers with concise prompts, beneficial in time-sensitive scenarios. 
+3. Contextual Adaptability: 
+o While GPT-4 adapted to inferred context best, it also occasionally over-explained on naïve 
+prompts. Claude’s adaptability shone in conversational and practical summaries but lacked 
+depth on more technical prompts. Open-source models were the least adaptable, suggesting a 
+need for more explicit guidance. 
+ 
+ 
+Conclusion and Recommendations 
+1. Summary of Findings: 
+o Prompt clarity significantly impacts response quality across AI models, with GPT-4 showing 
+the most noticeable improvement in depth and relevance. While all models improved with 
+basic prompts, open-source models exhibited the least benefit from prompt refinement. 
+2. Best Practices: 
+For optimal results, users should provide clear, structured prompts, detailing scope and 
+focus to guide models more effectively. This ensures higher accuracy and alignment with 
+user intent, particularly for complex or nuanced queries. 
+ 
+ 
+ 
+RESULT: 
+Thus, the comparative analysis of different types of prompting patterns reveals significant 
+variation in performance depending on the complexity of the task and the structure of the 
+prompt.
