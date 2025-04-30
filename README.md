@@ -1,7 +1,6 @@
+### Exp 5 : Comparative Analysis of different types of Prompting patterns and explain with Various Test Scenarios 
  
-Exp 5 : Comparative Analysis of different types of Prompting patterns and explain with 
-Various Test Scenarios 
-AIM: 
+### AIM: 
 Test and compare how different pattern models respond to various prompts (broad or 
 unstructured) versus basic prompts (clearer and more refined) across multiple scenarios.  
 Analyze the quality, accuracy, and depth of the generated responses. 
@@ -9,7 +8,7 @@ AI TOOLS REQUIRED:
 o For assistance- ChatGpt, Claude, DeepSeek 
 o For Video Generation- Runway 
 o For Image Generation- Midjourney 
-Procedure:  
+### Procedure:  
 1. Objective: 
 o This analysis seeks to evaluate the responses of various AI models to different levels of 
 prompt clarity. By comparing naïve (broad, unstructured) prompts to basic (clearer, more 
@@ -85,7 +84,7 @@ depth on more technical prompts. Open-source models were the least adaptable, su
 need for more explicit guidance. 
  
  
-Conclusion and Recommendations 
+### Conclusion and Recommendations 
 1. Summary of Findings: 
 o Prompt clarity significantly impacts response quality across AI models, with GPT-4 showing 
 the most noticeable improvement in depth and relevance. While all models improved with 
@@ -97,7 +96,7 @@ user intent, particularly for complex or nuanced queries.
  
  
  
-RESULT: 
+### RESULT: 
 Thus, the comparative analysis of different types of prompting patterns reveals significant 
 variation in performance depending on the complexity of the task and the structure of the 
-prompt.
+prompt. 
